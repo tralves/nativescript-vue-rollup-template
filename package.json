@@ -1,0 +1,19 @@
+{
+  "name": "nativescript-vue-rollup-template",
+  "version": "0.0.1",
+  "description": "A rollup template for nativescript-vue",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-cleanup": "^1.0.1",
+    "rollup-plugin-vue": "^2.4.2"
+  },
+  "dependencies": {
+    "nativescript-vue": "^0.1.6"
+  }
+}
