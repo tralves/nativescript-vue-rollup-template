@@ -30,6 +30,7 @@ cd hello-ns-vue
 ```
 
 3. Watch for changes while developing
+
 In two separate terminals run:
 ```
 # terminal 1
