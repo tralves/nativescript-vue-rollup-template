@@ -2,9 +2,9 @@ import vue from 'rollup-plugin-vue'
 import cleanup from 'rollup-plugin-cleanup'
 
 export default {
-    input: './main.js',
+    input: './app/main.js',
     output: {
-        file: './.tns/app/app.js',
+        file: './tns/app/app.js',
         format: 'cjs',
     },
     name: 'NativeScript-Vue-App',
@@ -12,7 +12,7 @@ export default {
 
     plugins: [
         vue({
-            css: './.tns/app/app.css',
+            css: './tns/app/app.css',
             compileTemplate: false
         }),
         cleanup({
