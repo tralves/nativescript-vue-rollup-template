@@ -1,5 +1,6 @@
 import vue from 'rollup-plugin-vue'
 import cleanup from 'rollup-plugin-cleanup'
+import css from 'rollup-plugin-css-only'
 
 export default {
     input: './app/main.js',
@@ -12,12 +13,13 @@ export default {
 
     plugins: [
         vue({
-            css: './tns/app/app.css',
             compileTemplate: false
         }),
+        css({ output: './tns/app/app.css' }),
         cleanup({
             extensions: ['.js', '.css']
         })
+
     ],
     external(id) {
         return id.startsWith('ui/') || id.startsWith('application')
