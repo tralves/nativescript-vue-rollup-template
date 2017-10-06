@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 move(getMovePaths('rollup.config.js'), log);
+move(getMovePaths('.babelrc'), log);
 move(getMovePaths('tns'), log);
 
 fs.unlinkSync('postinstall.js');
