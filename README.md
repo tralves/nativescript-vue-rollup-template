@@ -24,7 +24,7 @@ my-app
 
 2. Create app from this template
 ```bash
-tns create hello-ns-vue --template https://github.com/tralves/nativescript-vue-rollup-template
+tns create hello-ns-vue --template nativescript-vue-rollup-template
 
 cd hello-ns-vue
 ```

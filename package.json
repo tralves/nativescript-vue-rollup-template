@@ -1,6 +1,6 @@
 {
   "name": "nativescript-vue-rollup-template",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A rollup template for nativescript-vue",
   "main": "main.js",
   "scripts": {
