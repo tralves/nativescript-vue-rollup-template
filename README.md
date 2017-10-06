@@ -18,6 +18,13 @@ my-app
  |...
 ```
 
+This template supports:
+
+- .vue Single-File Components;
+- scss imports and inside `<style>` tags in .vue files;
+- root imports (imports starting with `/` refer to the root of the `app` folder);
+- babel with `es2015` and `stage-2` presets;
+
 ## Usage
 
 1. Install NativeScript tools (see http://docs.nativescript.org/start/quick-setup)
@@ -44,4 +51,5 @@ tns run ios
 ```
 
 4. Code!
-You will find more sample code [here](https://github.com/tralves/nativescript-vue/tree/master/samples).
+Check [Groceries Vue](https://github.com/tralves/groceries-ns-vue) to see this template
+in action in a complete app.
