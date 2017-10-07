@@ -27,7 +27,9 @@ This template supports:
 
 ## Usage
 
-1. Install NativeScript tools (see http://docs.nativescript.org/start/quick-setup)
+1. Dependencies:
+- Install NativeScript tools (see http://docs.nativescript.org/start/quick-setup)
+- Install rollup globally (`npm install --global rollup`) -OR- add `./node_modules/.bin` to the `PATH`.
 
 2. Create app from this template
 ```bash
