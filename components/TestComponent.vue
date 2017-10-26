@@ -2,7 +2,7 @@
     <stack-layout>
         <label class="large">Test Component</label>
 
-        <label>{{ $data }}</label>
+        <label>{{ name }}</label>
 
         <text-field v-model="name"></text-field>
         <text-field v-model="age"></text-field>
