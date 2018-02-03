@@ -1,3 +1,9 @@
+# DEPRECATED
+
+We are deprecating this template in favor of the [webpack one](https://github.com/tralves/nativescript-vue-webpack-template). Some things may have changed and I haven't tested this template in a while.
+
+Check the [Groceries Vue app](https://github.com/tralves/groceries-ns-vue) for an example of a working app using the webpack template.
+
 # NativeScript Vue.js Template
 
 This repo serves as the starting point for NativeScript + Vue.js projects, using [nativescript-vue](https://github.com/rigor789/nativescript-vue).
